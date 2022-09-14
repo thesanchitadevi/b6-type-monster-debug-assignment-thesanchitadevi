@@ -18,6 +18,7 @@
         body {
             background-image: url("./bg.png");
             background-size: cover;
+            background-position: left top;
             font-family: "Zilla Slab", serif;
         }
 
@@ -29,10 +30,17 @@
             justify-content: center;
             align-items: center;
         }
+
+        @media only screen and (max-width: 700px) {
+            body {
+                background-image: url("./bg.png");
+                background-size: cover;
+            }
+        }
     </style>
 </head>
 
-<body class="h-screen">
+<body>
     <header class="w-10/12 mx-auto ">
         <h1><img class="pt-8 mx-auto" src="./logo.png" /></h1>
         <a class="home py-5" href="index.html">Home</a>
