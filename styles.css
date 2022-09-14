@@ -11,6 +11,15 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+.blog{
+  font-size: 2rem;
+  text-decoration: underline  rgb(163, 241, 163) 3px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
@@ -63,8 +72,8 @@ body {
 }
 #result {
   position: fixed;
-  top: 10%; 
-  left: 10%;
+  top: 50%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
