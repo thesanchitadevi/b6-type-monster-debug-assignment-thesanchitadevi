@@ -154,9 +154,10 @@ button {
   display: grid;
   grid-template-columns:
       repeat(3, 1fr);
-  gap: 15px;
+  gap: 10px;
   /* flex-wrap: wrap; */
   justify-content: space-around;
+  margin-bottom: 15px;
 }
 
 .card {
