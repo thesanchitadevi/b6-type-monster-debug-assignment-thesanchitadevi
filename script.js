@@ -45,6 +45,7 @@ const typeController = (e) => {
   if (newLetterCorrect) {
     display.innerHTML += `<span class="green">${newLetter === " " ? "▪" : newLetter}</span>`;
   } else {
+    errorCount++;
     display.innerHTML += `<span class="red">${newLetter === " " ? "▪" : newLetter}</span>`;
   }
 
@@ -124,7 +125,7 @@ const start = () => {
 };
 
 // START Countdown
-startBtn.addEventListener("click", start());
+startBtn.addEventListener("click", start);
 
 // If history exists, show it
 displayHistory();
