@@ -20,6 +20,16 @@ body {
   align-items: center;
 }
 
+#blog-articles {
+  display: grid;
+  grid-template-columns:
+    repeat(1, 1fr);
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  margin: 15px 0;
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
