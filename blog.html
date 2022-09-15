@@ -18,11 +18,12 @@
         body {
             background-image: url("./bg.png");
             background-size: cover;
-            background-position: left top;
+            background-position: center;
+            height: 100vh;
             font-family: "Zilla Slab", serif;
         }
 
-        .home {
+        .blog {
             font-size: 2rem;
             text-decoration: underline rgb(163, 241, 163) 3px;
             color: white;
@@ -31,19 +32,13 @@
             align-items: center;
         }
 
-        @media only screen and (max-width: 700px) {
-            body {
-                background-image: url("./bg.png");
-                background-size: cover;
-            }
-        }
     </style>
 </head>
 
-<body>
+<body >
     <header class="w-10/12 mx-auto ">
         <h1><img class="pt-8 mx-auto" src="./logo.png" /></h1>
-        <a class="home py-5" href="index.html">Home</a>
+        <a class="blog py-5" href="index.html">Home</a>
     </header>
     <main>
         <section class="w-10/12 mx-auto pb-10">
@@ -51,7 +46,7 @@
             <div id="accordion-collapse" data-accordion="collapse">
                 <h2 id="accordion-collapse-heading-1">
                     <button type="button"
-                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-white"
+                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left border border-b-0 border-gray-200 rounded-t-xl focus:ring-1 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-white"
                         data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
                         aria-controls="accordion-collapse-body-1">
                         <span>Write down differences between local storage and session storage.</span>
@@ -87,7 +82,7 @@
                 </div>
                 <h2 id="accordion-collapse-heading-2">
                     <button type="button"
-                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-1 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                         data-accordion-target="#accordion-collapse-body-2" aria-expanded="false"
                         aria-controls="accordion-collapse-body-2">
                         <span>Write down differences between global scope and block scope.</span>
@@ -119,7 +114,7 @@
                 </div>
                 <h2 id="accordion-collapse-heading-3">
                     <button type="button"
-                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left text-gray-500 border border-gray-200 focus:ring-1 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                         data-accordion-target="#accordion-collapse-body-3" aria-expanded="false"
                         aria-controls="accordion-collapse-body-3">
                         <span>How does the event-loop in JavaScript work?</span>
@@ -149,7 +144,7 @@
                 </div>
                 <h2 id="accordion-collapse-heading-4">
                     <button type="button"
-                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                        class="flex items-center justify-between w-full p-5 font-medium text-xl text-left text-gray-500 border border-gray-200 focus:ring-1 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
                         data-accordion-target="#accordion-collapse-body-4" aria-expanded="false"
                         aria-controls="accordion-collapse-body-4">
                         <span>How many types of undefined we get?</span>
